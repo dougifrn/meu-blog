@@ -3,15 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>   BLOG  DOUGPR </title>
-</head>
-<body style="background-color: lightblue;"> 
+    <title>BLOG DOUGPR</title>
+    <style>
+        /* Estilização Geral */
+        body {
+            background-color: lightblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1.6;
+        }
 
-    <h1 style="color: #080808;">MEU BLOG PESSOAL </h1>
-    <p>NESSE SITE EU VOU CONTAR UM POUCO SOBRE A MINHA VIDA</p>
-    <p>SOU UM ESTUDANTE DE PROGRAMAÇÃO INICIANTE</p>
-    <P> ESTOU AMANDO A EXPERIÊCIA , CONFESSO QUE NÃO É FACIL, MAS TUDO VAI SE DESENVOLVENDO </P>
-    <P>ESTOU SEMPRE PRATICANDO PARA APRENDER RÁPIDO</P>
-    <h2 style="color: rgb(13, 4, 148); border: 2px solid #080808; padding: 10px;"> para acompanhar mais, siga-me em instagram</h2>
-</body>.
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #e9b662;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            background-color: rgba(255, 255, 255, 0.4);
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Imagem */
+        .logo-blog {
+            max-width: 250px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        /* Link do Instagram (Linha 16) */
+        .instagram-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 12px 25px;
+            border: 2px solid #080808;
+            background-color: rgb(149, 226, 236);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .instagram-link:hover {
+            transform: scale(1.05);
+            background-color: #e9b662;
+            color: white;
+            border-color: #e9b662;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MEU BLOG PESSOAL</h1>
+    </header>
+
+    <main>
+        <img src="logo_sol_e_camera.png" alt="Logo Sol e Câmera" class="logo-blog">
+        
+        <p>Nesse site eu vou contar um pouco sobre a minha vida.</p>
+        <p>Sou um estudante de programação iniciante.</p>
+        <p>Estou amando a experiência; confesso que não é fácil, mas tudo vai se desenvolvendo.</p>
+        <p>Estou sempre praticando para aprender rápido.</p>
+
+        <a href="https://www.instagram.com/douggpr" target="_blank" class="instagram-link">
+            MEU INSTAGRAM
+        </a>
+    </main>
+
+</body>
 </html>
